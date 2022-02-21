@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Sheh Mart</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+
+    <link rel="stylesheet" href="https://blaze-ui.netlify.app/css/foundation.css" />
+    <link rel="stylesheet" href="https://blaze-ui.netlify.app/Components/navigation/navigation.css" />                      
+    <link rel="stylesheet" href="https://blaze-ui.netlify.app/components/button/button.css" />
+    <script src="https://kit.fontawesome.com/21124ac8ea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/shared.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/auth/auth.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        
+        <!-- /*=============================================
+        =            Nav Bar            =
+        =============================================*/ -->
+
+        <nav class="nav-bar">
+            <div class="h3 nav-txt"><a href="/index.html"><i class="fas fa-store"></i> Sheh Mart</a></div>
+            <a href="" class="icon-in-nav"><i class="fas fa-search"></i></a>
+            <a href="/categories/cart.html" class="icon-in-nav"><i class="fas fa-shopping-basket"></i></a>
+            <a href="/categories/wishlist.html" class="icon-in-nav"><i class="far fa-heart"></i></a>
+            <a href="/auth/login.html" class="icon-in-nav"><i class="far fa-user-circle"></i></a>
+            <a href="" class="icon-in-nav nav-hamburger"><i class="fas fa-bars"></i></a>
+        </nav>
+        
+
+        <!-- /*=============================================
+        =            Main Content            =
+        =============================================*/ -->
+        <main class="main-wrapper">
+            <div class="auth-wrapper">
+                <h2 class="h2 text-center">
+                    Login
+                </h2>
+
+                <hr>
+                <br>
+
+                <section class="quiz-content">
+
+                    <form action="" class="input-validation" novalidate>
+
+                        <label for="email-input"></label>
+                        <input type="email" placeholder="Enter Email" required />
+
+                        <label for="password"></label>
+                        <input type="password" placeholder="Enter Password" required />
+
+                        <span>Not a user yet? &nbsp;
+                            <a href="/auth/signup.html">Create an account</a>
+                            <a href="/auth/forgot.html">Forgot password? </a>
+                            <div>
+                                <input type="checkbox"></input>
+                                <label>Remember me</label>
+                            </div>
+                        </span>
+                    </form>
+
+                    <button onclick="window.location.href='';" class="btn-primary next-quest">
+                        Login ▶
+                    </button>
+                    <button onclick="window.location.href='/index.html';" class="btn-primary next-quest btn-home">
+                        Home 🏠
+                    </button>
+
+                </section>
+            </div>
+        </main>
+        
+        <!-- /*=============================================
+        =            Footer            =
+        =============================================*/ -->
+
+        <footer>
+
+            <span class="t0p75">Made with ❤ by Taran</span>
+            <a class="link" href="mailto: taran.s1608@gmail.com" target="_blank">
+                <i class="fas fa-at"></i>
+            </a>
+            <a class="link" href="https://twitter.com/Tarandeep_s1ngh" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a class="link" href="https://www.linkedin.com/in/tarandeep-s1ngh/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a class="link" href="https://github.com/Tarandeep-s1ngh " target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+        </footer>
+
+    </div>
+</body>
+</html>
