@@ -1,0 +1,54 @@
+/*=============================================
+=            Nav Bar            =
+=============================================*/
+
+.nav-bar, .nav-bar * {
+    background-color: var(--primary-color);
+}
+
+.nav-bar {
+    box-shadow: none;
+    padding: 0 0.5rem 1rem;
+    /* position: fixed;
+    top: 0;
+    z-index: 1; */
+}
+
+.icon-in-nav {
+    color: var(--white);
+}
+
+.icon-in-nav:hover {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+.nav-txt > a {
+    color: var(--accent-color);
+}
+
+.nav-txt:hover {
+    cursor: pointer;
+}
+
+/*=============================================
+=            Footer            =
+=============================================*/
+
+footer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+footer *{
+    color: var(--white);
+}
+
+footer *:hover{
+    color: var(--accent-color);
+}
+
+footer > span {
+    margin-right: auto;
+}
