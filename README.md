@@ -1,4 +1,4 @@
-# [Sheh Mart: E-Commerce](https://github.com/Tarandeep-s1ngh/Sheh-Mart-E-Commerce)
+# [Sheh Mart: E-Commerce](https://sheh-mart.netlify.app/)
 
 <div align="center">One Stop Shop
 For All Your Chess Needs</div>
@@ -36,26 +36,26 @@ Sheh Mart is an E-Commerce for chess products and all the stuff related to chess
 
 <br />
 
-- [Landing Page](https://user-images.githubusercontent.com/65854945/155025049-d083cd5b-2c2c-452f-b79a-54b87eb105e3.png)
-- [Product Listing Page](https://user-images.githubusercontent.com/65854945/155025099-d5bf8871-5863-4293-8e06-a0e7955aab58.png)
-- [Wishlist](https://user-images.githubusercontent.com/65854945/155025140-bb9d6dce-38be-4f0c-9a18-2e49127e0c3b.png)
-- [Cart Management](https://user-images.githubusercontent.com/65854945/155025161-30295f78-0f96-4882-9c20-314ee0095a33.png)
-- [Checkout](https://user-images.githubusercontent.com/65854945/155025196-0b68978c-cdbc-4910-ac5b-7a7f25976fd4.png)
-- [Authentication](https://user-images.githubusercontent.com/65854945/155025231-02a2f82a-8bf1-47dc-94ae-b92c39a07bd4.png)
+- [Landing Page](https://sheh-mart.netlify.app/)
+- [Product Listing Page](https://sheh-mart.netlify.app/categories/products.html)
+- [Wishlist](https://sheh-mart.netlify.app/categories/wishlist.html)
+- [Cart Management](https://sheh-mart.netlify.app/categories/cart.html)
+- [Checkout](https://sheh-mart.netlify.app/categories/checkout.html)
+- [Authentication](https://sheh-mart.netlify.app/auth/login.html)
 
 ### **Screenshots**
 
-![chess-blaze-landing-page](https://user-images.githubusercontent.com/65854945/154772547-1b1b5784-9762-41ac-a0bd-6686c235ac74.png)
+![Landing Page](https://user-images.githubusercontent.com/65854945/155025049-d083cd5b-2c2c-452f-b79a-54b87eb105e3.png)
 
-![categories-page](https://user-images.githubusercontent.com/65854945/154772653-2ea32572-f8a6-49b7-a5aa-ed1402eda054.png)
+![Product Listing Page](https://user-images.githubusercontent.com/65854945/155025099-d5bf8871-5863-4293-8e06-a0e7955aab58.png)
 
-![rules-page](https://user-images.githubusercontent.com/65854945/154772695-bc626ae3-e890-45c3-ba0d-7a225fd964bd.png)
+![Wishlist](https://user-images.githubusercontent.com/65854945/155025140-bb9d6dce-38be-4f0c-9a18-2e49127e0c3b.png)
 
-![question-page](https://user-images.githubusercontent.com/65854945/154772771-752680bc-188b-4398-9afd-3b462042c543.png)
+![Cart Management](https://user-images.githubusercontent.com/65854945/155025161-30295f78-0f96-4882-9c20-314ee0095a33.png)
 
-![results](https://user-images.githubusercontent.com/65854945/154772807-60d9ab3b-e333-4d7b-9c71-88239b09bcd0.png)
+![Checkout](https://user-images.githubusercontent.com/65854945/155025196-0b68978c-cdbc-4910-ac5b-7a7f25976fd4.png)
 
-![login](https://user-images.githubusercontent.com/65854945/154772819-59755d83-6129-4a91-be24-bafcd6cee02d.png)
+![Authentication](https://user-images.githubusercontent.com/65854945/155025231-02a2f82a-8bf1-47dc-94ae-b92c39a07bd4.png)
 
 
 <br />
