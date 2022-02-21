@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Sheh Mart</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+
+    <!-- Component Library: Blaze UI -->
+    <link rel="stylesheet" href="https://blaze-ui.netlify.app/css/foundation.css" />
+    <link rel="stylesheet" href="https://blaze-ui.netlify.app/Components/navigation/navigation.css" />
+    <link rel="stylesheet" href="https://blaze-ui.netlify.app/components/card/card.css" />
+    <link rel="stylesheet" href="https://blaze-ui.netlify.app/components/image/image.css" />                    
+    <link rel="stylesheet" href="https://blaze-ui.netlify.app/components/button/button.css" />
+    <link rel="stylesheet" href="https://blaze-ui.netlify.app/Components/slider/slider.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/21124ac8ea.js" crossorigin="anonymous"></script>
+    
+    <!-- Project CSS -->
+    <link rel="stylesheet" href="/css/shared.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="stylesheet" href="/css/products.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        
+        <!-- /*=============================================
+        =            Nav Bar            =
+        =============================================*/ -->
+
+        <nav class="nav-bar">
+            <div class="h3 nav-txt"><a href="/index.html"><i class="fas fa-store"></i> Sheh Mart</a></div>
+            <a href="" class="icon-in-nav"><i class="fas fa-search"></i></a>
+            <a href="/categories/cart.html" class="icon-in-nav"><i class="fas fa-shopping-basket"></i></a>
+            <a href="/categories/wishlist.html" class="icon-in-nav"><i class="far fa-heart"></i></a>
+            <a href="/auth/login.html" class="icon-in-nav"><i class="far fa-user-circle"></i></a>
+            <a href="" class="icon-in-nav"><i class="fas fa-sign-out"></i></a>
+            <a href="" class="icon-in-nav nav-hamburger"><i class="fas fa-bars"></i></a>
+        </nav>
+
+        
+        <!-- /*=============================================
+        =            Products Page Body            =
+        =============================================*/ -->
+        
+        <main class="main-wrapper">
+
+            <div class="products-wrapper">
+
+                <aside class="filter">
+                    <div class="filter-header">
+                        <h2 class="h2">Filters</h2>
+                        <a href="">Clear</a>
+                    </div>
+
+                    <hr />
+
+                    <h3 class="h3">Price</h3>
+                    <label for="range" class="lightbold">
+                        <div class="filter-price">
+                            <span>50</span>
+                            <span>500</span>
+                        </div>
+                    </label>
+                    <input class="slider" type="range" name="range" id="range" min="50" max="500" value="250"/>
+                    
+                    <h3 class="h3">Categories</h3>
+                    <div class="flex-row gap0p2">
+                        <input type="checkbox">
+                        <label>Boards</label>
+                    </div>
+                    <div class="flex-row gap0p2">
+                        <input type="checkbox" checked>
+                        <label>Books</label>
+                    </div>
+                    <div class="flex-row gap0p2">
+                        <input type="checkbox">
+                        <label>Pieces</label>
+                    </div>
+
+                    <h3 class="h3">Rating</h3>
+                    <div class="flex-row gap0p2">
+                        <input type="radio">
+                        <label>4 stars & above</label>
+                    </div>
+                    
+                    <div class="flex-row gap0p2">
+                        <input type="radio" checked>
+                        <label>3 stars & above</label>
+                    </div>
+                    
+                    <div class="flex-row gap0p2">
+                        <input type="radio">
+                        <label>2 stars & above</label>
+                    </div>
+                    
+                    <div class="flex-row gap0p2">
+                        <input type="radio">
+                        <label>below 2 stars</label>
+                    </div>
+
+                    <h3 class="h3">Sort by</h3>
+                    <div class="flex-row gap0p2">
+                        <input type="radio" checked>
+                        <label>Price - Low to High</label>
+                    </div>
+                    <div class="flex-row gap0p2">
+                        <input type="radio">
+                        <label>Price - High to low</label>
+                    </div>
+                </aside>
+
+                <section class="products-section">
+                    <div class="card-badge">
+                        <div class="card-header">
+                            <img class="img-responsive" src="/assets/product.jfif" alt="naruto themed notebook" />
+                            <div class="badge-in-card">
+                                TRENDING
+                            </div>
+                            <div class="card-floating-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="card-header-txt">
+                                <h3 class="semibold">Chess Base 16</h3>
+                                <small class="gray-color">Book</small>
+
+                                <div class="card-price">
+                                    <span class="final-price t1p5 lightbold">₹249</span>
+                                    <span class="initial-price t-strike">₹449</span>
+                                    <span class="discount gray-color">Save ₹200 (44%)</span>
+                                </div>
+                            </div> 
+                        </div>
+                        <button class="btn-primary card-btn">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <div class="card-badge">
+                        <div class="card-header">
+                            <img class="img-responsive" src="/assets/product.jfif" alt="naruto themed notebook" />
+                            <div class="card-floating-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="card-header-txt">
+                                <h3 class="semibold">Chess Base 16</h3>
+                                <small class="gray-color">Book</small>
+
+                                <div class="card-price">
+                                    <span class="final-price t1p5 lightbold">₹249</span>
+                                    <span class="initial-price t-strike">₹449</span>
+                                    <span class="discount gray-color">Save ₹200 (44%)</span>
+                                </div>
+                            </div> 
+                        </div>
+                        <button class="btn-primary card-btn">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <div class="card-badge card-txt-overlay">
+                        <div class="card-header">
+                            <img class="img-responsive" src="/assets/product.jfif" alt="naruto themed notebook" />
+                            <div class="card-floating-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="card-header-txt">
+                                <h3 class="semibold">Chess Base 16</h3>
+                                <small class="gray-color">Book</small>
+
+                                <div class="card-price">
+                                    <span class="final-price t1p5 lightbold">₹249</span>
+                                    <span class="initial-price t-strike">₹449</span>
+                                    <span class="discount gray-color">Save ₹200 (44%)</span>
+                                </div>
+                            </div> 
+                        </div>
+                        <button class="btn-primary card-btn">
+                            Add to Cart
+                        </button>
+                        <div class="overlay-msg t2 lightbold">Out of Stock</div>
+                    </div>
+
+                    <div class="card-badge">
+                        <div class="card-header">
+                            <img class="img-responsive" src="/assets/product.jfif" alt="naruto themed notebook" />
+                            <div class="card-floating-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="card-header-txt">
+                                <h3 class="semibold">Chess Base 16</h3>
+                                <small class="gray-color">Book</small>
+
+                                <div class="card-price">
+                                    <span class="final-price t1p5 lightbold">₹249</span>
+                                    <span class="initial-price t-strike">₹449</span>
+                                    <span class="discount gray-color">Save ₹200 (44%)</span>
+                                </div>
+                            </div> 
+                        </div>
+                        <button class="btn-primary card-btn">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <div class="card-badge">
+                        <div class="card-header">
+                            <img class="img-responsive" src="/assets/product.jfif" alt="naruto themed notebook" />
+                            <div class="card-floating-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="card-header-txt">
+                                <h3 class="semibold">Chess Base 16</h3>
+                                <small class="gray-color">Book</small>
+
+                                <div class="card-price">
+                                    <span class="final-price t1p5 lightbold">₹249</span>
+                                    <span class="initial-price t-strike">₹449</span>
+                                    <span class="discount gray-color">Save ₹200 (44%)</span>
+                                </div>
+                            </div> 
+                        </div>
+                        <button class="btn-primary card-btn">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <div class="card-badge">
+                        <div class="card-header">
+                            <img class="img-responsive" src="/assets/product.jfif" alt="naruto themed notebook" />
+                            <div class="card-floating-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="card-header-txt">
+                                <h3 class="semibold">Chess Base 16</h3>
+                                <small class="gray-color">Book</small>
+
+                                <div class="card-price">
+                                    <span class="final-price t1p5 lightbold">₹249</span>
+                                    <span class="initial-price t-strike">₹449</span>
+                                    <span class="discount gray-color">Save ₹200 (44%)</span>
+                                </div>
+                            </div> 
+                        </div>
+                        <button class="btn-primary card-btn">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <div class="card-badge">
+                        <div class="card-header">
+                            <img class="img-responsive" src="/assets/product.jfif" alt="naruto themed notebook" />
+                            <div class="card-floating-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="card-header-txt">
+                                <h3 class="semibold">Chess Base 16</h3>
+                                <small class="gray-color">Book</small>
+
+                                <div class="card-price">
+                                    <span class="final-price t1p5 lightbold">₹249</span>
+                                    <span class="initial-price t-strike">₹449</span>
+                                    <span class="discount gray-color">Save ₹200 (44%)</span>
+                                </div>
+                            </div> 
+                        </div>
+                        <button class="btn-primary card-btn">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <div class="card-badge">
+                        <div class="card-header">
+                            <img class="img-responsive" src="/assets/product.jfif" alt="naruto themed notebook" />
+                            <div class="card-floating-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="card-header-txt">
+                                <h3 class="semibold">Chess Base 16</h3>
+                                <small class="gray-color">Book</small>
+
+                                <div class="card-price">
+                                    <span class="final-price t1p5 lightbold">₹249</span>
+                                    <span class="initial-price t-strike">₹449</span>
+                                    <span class="discount gray-color">Save ₹200 (44%)</span>
+                                </div>
+                            </div> 
+                        </div>
+                        <button class="btn-primary card-btn">
+                            Add to Cart
+                        </button>
+                    </div>
+                    
+                    <div class="pagination semibold text-center">
+                        &lt; | 1 | 2 | 3. . . 10 &gt;
+                    </div>
+                </section>
+
+            </div>
+
+        </main>
+
+        
+        <!-- /*=============================================
+        =            Footer            =
+        =============================================*/ -->
+
+        <footer>
+
+            <span class="t0p75">Made with ❤ by Taran</span>
+            <a class="link" href="mailto: taran.s1608@gmail.com" target="_blank">
+                <i class="fas fa-at"></i>
+            </a>
+            <a class="link" href="https://twitter.com/Tarandeep_s1ngh" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a class="link" href="https://www.linkedin.com/in/tarandeep-s1ngh/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a class="link" href="https://github.com/Tarandeep-s1ngh " target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+        </footer>
+
+    </div>
+</body>
+</html>
