@@ -96,6 +96,31 @@
     padding: 1rem;
 }
 
-.pagination a {
+.pagination span {
     cursor: pointer;
+}
+
+
+
+/*=============================================
+=            Single Product            =
+=============================================*/
+
+.single-product-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.product-image > img {
+    border-radius: 10px;
+}
+
+.product-details {
+    max-width: 30rem;
+}
+
+.product-description {
+    text-align: justify;
 }
