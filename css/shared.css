@@ -1,0 +1,83 @@
+/*=============================================
+=            Global Chess Blaze            =
+=============================================*/
+
+:root {
+    --primary-color: #17181a;
+    --secondary-color: #202123;
+    --accent-color: #ec7043;
+    --highlight-color: #46b9be;
+    --dark-blue: #1f274b;
+    --text-color: #d9d9d9;
+    --black: #282828;
+    --dark-black: #1a1a1a;
+    --dark-gray: #424242;
+    --dark-shadow: #2c2c2c;
+    --title-font: 'Poppins', sans-serif;
+    font-size: 100%;
+}
+
+.accent-color {
+    color: var(--accent-color);
+}
+
+.highlight-color {
+    color: var(--highlight-color);
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+body {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+}
+
+hr {
+    margin-top: 1.5rem;
+    border: 1px solid var(--dark-gray);
+}
+
+.hr-b {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    max-width: 70%;
+    border: 1px solid var(--dark-gray);
+}
+
+button:hover {
+    transform: scale(1.01);
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 2rem);
+}
+
+.main-wrapper {
+    flex-grow: 1;
+    /* margin-top: 62px; */
+}
+
+.flex-row {
+    display: flex;
+}
+
+.gap0p2 {
+    gap: 0.2rem;
+}
