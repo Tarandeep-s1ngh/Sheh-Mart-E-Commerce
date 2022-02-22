@@ -93,7 +93,7 @@ input[type="range"] {
     display: flex;
     flex-wrap: wrap;
     gap: 0.6rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .pagination {
@@ -130,4 +130,10 @@ input[type="range"] {
 
 .product-description {
     text-align: justify;
+}
+
+@media screen and (max-width: 530px) {
+    .filter {
+        display: none;
+    }
 }
