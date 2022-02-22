@@ -60,3 +60,17 @@
     border: 1px solid var(--accent-color);
     background-color: var(--primary-color);
 }
+
+/* Profile Page */
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-left: 1rem;
+}
+
+.profile-details span.semibold {
+    display: inline-block;
+    margin-right: 1rem;
+}
